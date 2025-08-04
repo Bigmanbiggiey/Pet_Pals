@@ -36,7 +36,7 @@ export default function Booking() {
 
     setSubmitting(true);
     try {
-      const res = await fetch('https://formspree.io/f/mdkdlvwp', {
+      const res = await fetch(import.meta.env.VITE_FORMSPREE_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -61,12 +61,19 @@ export default function Booking() {
 
   return (
     <section className="p-8 max-w-xl mx-auto">
-      <h2 className="text-3xl font-bold text-teal-700 mb-6">Book Reliable Pet Sitting Services in Kitengela</h2>
+      <h2 className="text-3xl font-bold text-teal-700 mb-6">
+        Book Reliable Pet Sitting Services in Kitengela
+      </h2>
 
       {isSubmitSuccessful ? (
-        <p className="text-green-600 text-lg font-medium">Booking submitted! We’ll get in touch soon.</p>
+        <p className="text-green-600 text-lg font-medium">
+          Booking submitted! We’ll get in touch soon.
+        </p>
       ) : (
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 bg-white p-6 rounded shadow">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="space-y-4 bg-white p-6 rounded shadow"
+        >
           {/* Name */}
           <input
             className="w-full border border-gray-300 p-2 rounded"
