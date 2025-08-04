@@ -62,7 +62,7 @@ export default function Booking() {
   return (
     <section className="p-8 max-w-xl mx-auto">
       <h2 className="text-3xl font-bold text-teal-700 mb-6">
-        Book Reliable Pet Sitting Services in Kitengela
+        Submit a Booking Request
       </h2>
 
       {isSubmitSuccessful ? (
