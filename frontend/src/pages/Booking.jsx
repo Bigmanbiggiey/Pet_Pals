@@ -36,7 +36,7 @@ export default function Booking() {
 
     setSubmitting(true);
     try {
-      const res = await fetch('https://formspree.io/f/mnqwyzla', {
+      const res = await fetch('https://formspree.io/f/mdkdlvwp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
