@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className="bg-teal-600 text-white p-4 fixed top-0 left-0 w-full z-50 shadow">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <a href="#home" className="text-xl font-bold">PetPal🐾 </a>
+        <a href="#home" className="text-xl font-bold">PetPal🐾</a>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-4">
