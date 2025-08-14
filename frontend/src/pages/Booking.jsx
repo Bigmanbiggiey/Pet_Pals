@@ -1,4 +1,5 @@
 // src/pages/Booking.jsx
+// Booking page for Pet Pal Ke
 import { useForm } from 'react-hook-form';
 import { useSeo } from '../hooks/useSeo';
 import { useState } from 'react';
