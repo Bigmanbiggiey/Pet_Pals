@@ -1,3 +1,4 @@
+// HomePage for PetPal Ke
 import { useSeo } from '../hooks/useSeo';
 
 export default function Home() {
