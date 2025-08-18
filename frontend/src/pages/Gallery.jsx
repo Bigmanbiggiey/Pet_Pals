@@ -20,7 +20,7 @@ export default function Gallery() {
     description: 'Check out photos of pets we’ve cared for. Happy dogs and cats in loving hands!',
   });
 
-  const photos = [photo1, photo2, photo3, photo4, photo5, photo6];
+  const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12];
 
   return (
     <section className="p-8 max-w-6xl mx-auto">
