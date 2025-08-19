@@ -4,14 +4,14 @@ import { useSeo } from '../hooks/useSeo';
 
 export default function Contact() {
   useSeo({
-    title: 'Contact PetPal | Dog Sitting in Kitengela',
+    title: 'Contact PetPal | Dog Sitting in Nairobi',
     description: 'Call, WhatsApp, or email PetPal to book your pet care services in Kitengela.',
   });
 
   return (
     <section className="p-8 max-w-4xl mx-auto">
       <h2 className="text-3xl font-bold text-teal-700 mb-6">Contact Me</h2>
-      <p className="mb-4">📍 Based in Kitengela, Nairobi</p>
+      <p className="mb-4">📍 Based in Nairobi, Kenya</p>
       <p className="mb-2">📞 Phone: <a href="tel:+254793654269" className="text-teal-600 underline">+254794895297</a></p>
       <p className="mb-2">📧 Email: <a href="mailto:petsitter@email.com" className="text-teal-600 underline">kamwerujeremym@gmail.com</a></p>
       <p className="mb-2">💬 WhatsApp: <a href="https://wa.me/254794895297" target="_blank" className="text-teal-600 underline">Chat Now</a></p>
