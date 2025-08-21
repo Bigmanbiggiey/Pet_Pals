@@ -1,5 +1,5 @@
 // src/pages/Contact.jsx
-// Contact page for PetPal Ke
+// 
 import { useSeo } from '../hooks/useSeo';
 
 export default function Contact() {
