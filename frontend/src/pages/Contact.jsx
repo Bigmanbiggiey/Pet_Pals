@@ -1,5 +1,5 @@
 // src/pages/Contact.jsx
-// <p className="mb-2">📞 Phone: <a href="tel:+254793654269" className="text-teal-600 underline">+254794895297</a></p>
+// Contact page for PetPal Ke
 import { useSeo } from '../hooks/useSeo';
 
 export default function Contact() {
