@@ -29,7 +29,7 @@ export default function FeaturedProducts() {
     },
     {
       id: 4,
-      name: "Sensory Toy",
+      name: "Play Toys",
       description: "Engaging toy to keep your dog active and happy.",
       image: sensoryToyImg,
     },
@@ -57,7 +57,7 @@ export default function FeaturedProducts() {
                 {product.description}
               </p>
               <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
-                Shop Now
+                Enquire More
               </button>
             </div>
           ))}
