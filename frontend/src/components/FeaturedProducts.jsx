@@ -1,5 +1,6 @@
 // src/components/FeaturedProducts.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Import product images (place them inside src/assets/ or a similar folder)
 import dogFoodImg from "../assets/dogfood.jpg";
@@ -56,9 +57,12 @@ export default function FeaturedProducts() {
               <p className="text-gray-600 mt-2 text-sm">
                 {product.description}
               </p>
-              <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
+              <Link
+                to="/contact"
+                className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700"
+              >
                 Inquire
-              </button>
+              </Link>
             </div>
           ))}
         </div>
