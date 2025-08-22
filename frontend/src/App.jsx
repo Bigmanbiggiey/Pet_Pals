@@ -3,6 +3,7 @@
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import FeaturedProducts from './components/FeaturedProducts';
 
 // Pages
 import Home from './pages/Home';
@@ -12,7 +13,7 @@ import Booking from './pages/Booking';
 import Testimonials from './pages/Testimonials';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
-import FeaturedProducts from './components/FeaturedProducts';
+
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <section id="about"><About /></section>
           <section id="services"><Services /></section>
           <section id="booking"><Booking /></section>
+          <section id="products"><FeaturedProducts /></section>
           <section id="testimonials"><Testimonials /></section>
           <section id="gallery"><Gallery /></section>
           <section id="contact"><Contact /></section>
