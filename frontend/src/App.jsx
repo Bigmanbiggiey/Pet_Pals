@@ -12,6 +12,7 @@ import Booking from './pages/Booking';
 import Testimonials from './pages/Testimonials';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import FeaturedProducts from './components/FeaturedProducts';
 
 export default function App() {
   return (
