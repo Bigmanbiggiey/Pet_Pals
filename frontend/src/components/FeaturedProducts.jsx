@@ -1,5 +1,4 @@
 // src/components/FeaturedProducts.jsx
-// Updated
 import React from "react";
 import { Link } from "react-router-dom";
 
