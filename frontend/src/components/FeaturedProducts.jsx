@@ -17,24 +17,6 @@ export default function FeaturedProducts() {
       description: "Nutritious, vet-approved food for your dog’s health.",
       image: dogFoodImg,
     },
-    {
-      id: 2,
-      name: "Durable Dog Leash",
-      description: "Strong and comfortable leash for daily walks.",
-      image: leashImg,
-    },
-    {
-      id: 3,
-      name: "Feeding Bowl",
-      description: "Easy-to-clean, non-slip bowl for mealtime.",
-      image: feedingBowlImg,
-    },
-    {
-      id: 4,
-      name: "Play Toys",
-      description: "Engaging toy to keep your dog active and happy.",
-      image: sensoryToyImg,
-    },
   ];
 
   return (
